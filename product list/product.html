@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://bloom-component-library.vercel.app/components/component.css">
+    <script src="https://kit.fontawesome.com/00d6549dc7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="../home.css">
+    <title>Bloom Tronics | Products</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-main">
+            <div class="nav-logo">
+                <a href="../index.html" class="logo-link">
+                    <img class="logo-img" src="../images/logo.png" alt="logo">
+                    <h1 class="nav-header">Bloom Tronics</h1>
+                </a>
+            </div>
+            <div class="nav-search">
+                <input type="text" class="search-box" placeholder="Search">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="nav-items">
+                <a href="../profile/login.html" class="sign-in">
+                    <i class="fa-solid fa-circle-user"></i>
+                </a>
+                <div class="icon cart-badge">
+                    <a href="../Wishlist/wishlist.html">
+                        <i class="fa-solid fa-heart"></i>
+                        <div class="notification-icon flex-center">
+                            <span>3</span>
+                        </div>   
+                    </a>
+                </div> 
+                <div class="icon cart-badge">
+                    <a href="../Cart/cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="notification-icon flex-center">
+                            <span>2</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <ul class="links-container">
+            <li class="link-item"><a href="#" class="link">TV's Audio , Video</a></li>
+            <li class="link-item"><a href="#" class="link">Smartphone & Gadget</a></li>
+            <li class="link-item"><a href="#" class="link">Computer & Laptops</a></li>
+            <li class="link-item"><a href="#" class="link">Home Appliances</a></li>
+            <li class="link-item"><a href="#" class="link">accessories</a></li>
+        </ul>
+    </nav>
+
+     <div class="product-container">
+         <div class="filter-container">
+             <div class="filter-header">
+                 <h3>Filters</h3>
+                 <p class="links">Clear All</p>
+             </div>
+
+             <div class="filter-category center-hr">
+                 <h4 class="header">CATEGORY</h4>
+                 <div class="category-main">
+                    <label class="select-input">
+                        <input type="checkbox" class="checkbox-input" name="light">
+                        <span class="inp-text">Mobiles</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="checkbox" class="checkbox-input" name="light">
+                        <span class="inp-text">Laptops</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="checkbox" class="checkbox-input" name="light">
+                        <span class="inp-text">Television</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="checkbox" class="checkbox-input" name="light">
+                        <span class="inp-text">Home Appliances</span>
+                    </label>
+                 </div>
+             </div>
+
+             <div class="filter-price center-hr" >
+                 <h4 class="header">PRICE</h4>
+                 <div class="price-main ">
+                    <input type="range" class="slider" name="slider-input" min="500" max="5000">
+                    <div class="slider-value">
+                        <p>500</p>
+                        <p>1000</p>
+                        <p>5000</p>
+                    </div>
+                </div>
+             </div>
+             <div class="filter-rating center-hr">
+                 <h4 class="header">CUSTOMER RATING</h4>
+                 <div class="rating-main ">
+                    <label class="select-input">
+                        <input type="radio" class="radio-input" name="rating">
+                        <span class="inp-text">4 <i class="fa-solid fa-star"></i> & above</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" class="radio-input" name="rating">
+                        <span class="inp-text">3 <i class="fa-solid fa-star"></i> & above</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" class="radio-input" name="rating">
+                        <span class="inp-text">2 <i class="fa-solid fa-star"></i> & above</span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" class="radio-input" name="rating">
+                        <span class="inp-text">1 <i class="fa-solid fa-star"></i> & above</span>
+                    </label>
+                 </div>
+             </div>
+             <div class="filter-sort center-hr">
+                 <h4 class="header">SORT BY</h4>
+                 <div class="sort-main ">
+                    <label class="select-input">
+                        <input type="radio" class="radio-input" name="sort">
+                        <span class="inp-text">Popularity </span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" class="radio-input" name="sort">
+                        <span class="inp-text">Price--Low to High </span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" class="radio-input" name="sort">
+                        <span class="inp-text">Price--High to Low </span>
+                    </label>
+                    <label class="select-input">
+                        <input type="radio" class="radio-input" name="sort">
+                        <span class="inp-text">Newest First</span>
+                    </label>
+                 </div>
+             </div>
+         </div>
+         <div class="product-main-list">
+             <div class="product-header">
+                 <h3>All Products</h3>
+                 <span class="sub-text">-12 items</span>
+             </div>
+             <div class="grid">
+
+            
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>    
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                    <div class="card-info">
+                        <div class="card-title">
+                            <h3 class="card-header">Red Wireless Headphone</h3>
+                            <p class="card-description">Master & Dynamic</p>            	 			      			</div>
+                        <div class="price">
+                            <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                            <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                            <p class="price-perc">(50% OFF)</p>
+                        </div>
+                        </div>
+                        <button class="btn secondary-solid add-cart">
+                            Add to cart
+                            </button>
+                        <button class="btn secondary-solid wishlist"> 
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                    </div>                                
+           </div>  
+         </div>
+     </div>   
+
+
+
+
+</body>
+</html>
