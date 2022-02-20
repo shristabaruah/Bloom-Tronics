@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://bloom-component-library.vercel.app/components/component.css">
+    <script src="https://kit.fontawesome.com/00d6549dc7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../home.css">
+    <link rel="stylesheet" href="cart.css">
+    <title>Bloom Tronics | Cart</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-main">
+            <div class="nav-logo">
+                <a href="../index.html" class="logo-link">
+                    <img class="logo-img" src="../images/logo.png" alt="logo">
+                    <h1 class="nav-header">Bloom Tronics</h1>
+                </a>
+            </div>
+            <div class="nav-search">
+                <input type="text" class="search-box" placeholder="Search">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="nav-items">
+                <a href="../profile/login.html" class="sign-in">
+                    <i class="fa-solid fa-circle-user"></i>
+                </a>
+                <div class="icon cart-badge">
+                    <a href="../Wishlist/wishlist.html">
+                        <i class="fa-solid fa-heart"></i>
+                        <div class="notification-icon flex-center">
+                            <span>3</span>
+                        </div>   
+                    </a>
+                </div> 
+                <div class="icon cart-badge">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="notification-icon flex-center">
+                            <span>2</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+
+            <div class="cart-container">
+                <h2 class="flex-center">My Cart</h2>
+               <div class="cart">
+                <div class="cart-main">
+                    <div class="card-horizontal">
+                        <img class="card-img horizontal-img" src="../images/headphone.jpg" alt="">
+                        <div class="card-main">
+                            <div class="card-title">
+                                <h3 class="card-header">Wireless Headphone</h3>
+                                <p class="card-description">Master & Dynamic</p>            
+                            </div>
+                            <div class="price">
+                                <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                                <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                                <p class="price-perc">(50% OFF)</p>
+                            </div>
+                            <div class="qty">
+                                
+                                <label for="qty-count">Quantity</label>
+                                <button class="minus">-</button>
+                                    <input class="qty-count" type="number" value="1"  />
+                                <button class="add">+</button>
+                                </label>    
+                            </div>
+                            <div class="horizontal-btn">
+                                <button class="btn secondary-solid buy-now">REMOVE</button>
+                                <button class="btn secondary-solid wishlist"> 
+                                     MOVE TO WISHLIST
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card-horizontal">
+                        <img class="card-img horizontal-img" src="../images/mobile.jpg" alt="">
+                        <div class="card-main">
+                            <div class="card-title">
+                                <h3 class="card-header">New Smart Phone</h3>
+                                <p class="card-description">Master & Dynamic</p>            
+                            </div>
+                            <div class="price">
+                                <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                                <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                                <p class="price-perc">(50% OFF)</p>
+                            </div>
+                            <div class="qty">
+                                <label for="qty-count">Quantity</label>
+                                <button class="minus">-</button>
+                                    <input class="qty-count" type="number" value="1"  />
+                                <button class="add">+</button>
+                                </label>    
+                            </div>
+                            <div class="horizontal-btn">
+                                <button class="btn secondary-solid buy-now">REMOVE</button>
+                                <button class="btn secondary-solid wishlist"> 
+                                     MOVE TO WISHLIST
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+           
+
+            <div class="order-summary">
+                <div class="coupon">
+                    <h3>COUPONS</h3>
+                    <div class="apply-coupon">
+                        <p><i class="fa-solid fa-tags"></i> Apply Coupon</p>
+                        <button class="btn primary-outline apply">APPLY</button>
+                    </div>    
+                </div>
+                <div class="price-details">
+                    <h3>PRICE DETAILS</h3>
+                </div>
+                <div class="price-calculate">
+                    <li>
+                        <ul>
+                            <p>Total MRP</p>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>5998</p>
+                        </ul>
+                        <ul>
+                            <p> Discount on MRP</p>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>3000</p>
+                        </ul>
+                        <ul>
+                            <p>Delivery charges</p>
+                            <P>FREE</P>
+                        </ul>
+                        <ul>
+                            <p>Coupon Discount</p>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>0</p>
+                        </ul>
+                        <ul class="total">
+                            <h4>Total Amount</h4>
+                            <h4><i class="fa-solid fa-indian-rupee-sign"></i>2998</h4>
+                        </ul>
+                </li>
+                    
+                </div>
+                <button class="btn primary-solid order">
+                    <a href="#">PLACE ORDER</a>
+                </button>
+            </div>
+         </div> 
+        </div>
+</body>
+</html>
