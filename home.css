@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Slab:wght@300&display=swap');
+
+@import url("./Cart/cart.css");
+@import url("./profile/profile.css");
 *{
     margin:0;
     padding: 0;
@@ -19,6 +22,7 @@
      --color-black-:#383838;
 }
 
+/* NAVBAR CSS STARTS */
  .nav{
      position: sticky;
      top: 0;
@@ -101,7 +105,7 @@
     font-size: 0.9rem;
     height: 1.2rem;
     padding: 0.4rem;
-    }
+}
 .links-container{
     width: 100%;
     display: flex;
@@ -125,10 +129,12 @@
     color: var(--orange);
     opacity: 1;
 }
+
+/* NAVBAR CSS ENDS */
+
+/* HERO CONTENT CSS STARTS */
 .hero-section{
     padding: 1rem 1rem;
-    
-         
 }
 .img-container{
     position: relative;
@@ -192,6 +198,10 @@
     transition: 0.5s ease;
     background: rgb(0,0,0,0.3);
 }
+
+/*  HERO CONTENT CSS ENDS */
+
+/* PRODUCT CATEGORY CSS STARTS */
 .product-category{
     margin: 1rem;
     background-color: var(--orange);
@@ -200,6 +210,8 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius:80px ;
 }
+
+
 .product-card{
     margin: 1rem;
     display: flex;
@@ -209,6 +221,9 @@
 .card{
     box-shadow: none;
 }
+/* PRODUCT CATEGORY CSS ENDS */
+
+/* E-COMMERCE SITE FACILITIES STARTS */
 .category-facilities{
     display: flex;
     justify-content: space-evenly;
@@ -231,6 +246,11 @@
     padding: 2rem;
     border: 0.1px solid var(--color-border);
 }
+
+/* E-COMMERCE SITE FACILITIES ENDS */
+
+/* FOOTER CSS STARTS */
+
 .text-center{
     color: var(--black);
     padding: 1rem;
@@ -247,4 +267,59 @@
 .text-footer{
     font-size: 1.2rem;
     padding: 1rem ;
+}
+/* FOOTER CSS ENDS */
+
+@media screen and (max-width:600px){
+    .links-container{
+        display: none;
+    }
+    .nav-main{
+        padding:5px 2px;
+    }
+    .nav-header{
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+   
+    .logo-img{
+        width: 36px;
+        height: 36px;
+        margin-top: 1rem;
+    }
+    .sign-in,.icon{
+        font-size: 1.2rem;
+    }
+    .nav-search{
+        max-width: 200px;
+        margin-left:0 ;
+    }
+    .search-box,.search-btn{
+        height:30px;
+        font-size:12px;
+        padding:10px;
+
+    }
+}
+@media screen and (max-width:400px){
+    .logo-img{
+        width: 30px;
+        height: 30px;
+    }
+    .nav-header{
+        font-size: 0.9rem;
+    }
+    .nav-search{
+        max-width: 100px;
+        margin-left:3px ;
+    }
+    .search-box {
+        height:30px;
+        /* font-size:10px; */
+        padding:10px 15px ;
+    }
+    .search-btn{
+        padding: 10px 20px;
+    }
+
 }
