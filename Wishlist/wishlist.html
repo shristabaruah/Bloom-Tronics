@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images\logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://bloom-component-library.vercel.app/components/component.css">
+    <script src="https://kit.fontawesome.com/00d6549dc7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../home.css">
+    <link rel="stylesheet" href="wishlist.css">
+    <title>Bloom Tronics | Wishlist</title>
+</head>
+<body>
+    
+    <nav class="nav">
+        <div class="nav-main">
+            <div class="nav-logo">
+                <a href="../index.html" class="logo-link">
+                    <img class="logo-img" src="../images/logo.png" alt="logo">
+                    <h1 class="nav-header">Bloom Tronics</h1>
+                </a>
+            </div>
+            <div class="nav-search">
+                <input type="text" class="search-box" placeholder="Search">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="nav-items">
+                <a href="../profile/login.html" class="sign-in">
+                    <i class="fa-solid fa-circle-user"></i>
+                </a>
+                <div class="icon cart-badge">
+                    <a href="./wishlist.html">
+                        <i class="fa-solid fa-heart"></i>
+                        <div class="notification-icon flex-center">
+                            <span>3</span>
+                        </div>   
+                    </a>
+                </div> 
+                <div class="icon cart-badge">
+                    <a href="../Cart/cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="notification-icon flex-center">
+                            <span>2</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <ul class="links-container">
+            <li class="link-item"><a href="#" class="link">TV's Audio , Video</a></li>
+            <li class="link-item"><a href="#" class="link">Smartphone & Gadget</a></li>
+            <li class="link-item"><a href="#" class="link">Computer & Laptops</a></li>
+            <li class="link-item"><a href="#" class="link">Home Appliances</a></li>
+            <li class="link-item"><a href="#" class="link">accessories</a></li>
+        </ul>
+    </nav>
+
+    <div class="wishlist-container">
+        <div class="wishlist-header flex-center">
+            <h2>My Wishlist</h2>
+            <span class="sub-text"> 3 items</span>
+        </div>
+        <div class="wishlist-main">
+
+            <div class="card">
+                <img class="card-img" src="../images/headphone.jpg" alt="">
+                <span class="card-delete"><i class="fa-solid fa-xmark"></i></span>
+                <div class="card-info">
+                    <div class="card-title">
+                     
+                        <h3 class="card-header">Red Headphone</h3>
+                        <p class="card-description">Master & Dynamic</p>            
+                    </div>
+                    <div class="price">
+                        <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                        <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                        <p class="price-perc">(50% OFF)</p>
+                    </div>
+                </div>
+                   <button class="btn secondary-solid add-cart ">MOVE TO CART</button>
+                   
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="../images/mobile.jpg" alt="">
+                <span class="card-delete"><i class="fa-solid fa-xmark"></i></span>
+                <span class="card-badge">10% OFF</span>
+                <div class="card-info">
+                    <div class="card-title">
+                     
+                        <h3 class="card-header">New Smartphone</h3>
+                        <p class="card-description">Master & Dynamic</p>            
+                    </div>
+                    <div class="price">
+                        <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                        <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>1699</p>
+                        <p class="price-perc">(10% OFF)</p>
+                    </div>
+                </div>
+                   <button class="btn secondary-solid add-cart ">MOVE TO CART</button>
+                </div>
+
+            <div class="card vertical-overlay-card">
+                <img class="card-img" src="../images/headphone1.jpg" alt="">
+                <div class="card-info">
+                    <div class="card-title">
+                        <h3 class="card-header">Wireless Headphone</h3>
+                        <p class="card-description">Master & Dynamic</p>            
+                    </div>
+                    <div class="price">
+                        <p class="offer-price"><i class="fa-solid fa-indian-rupee-sign"></i>1499</p>
+                        <p class="actual-price"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                        <p class="price-perc">(50% OFF)</p>
+                    </div>
+                </div>
+                   <button class="btn secondary-solid add-cart">MOVE TO CART</button>
+                   <span class="card-overlay"> 
+                     <span class="card-delete"><i class="fa-solid fa-xmark"></i></span>
+                     <div>OUT OF STOCK</div> 
+                   </span>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
