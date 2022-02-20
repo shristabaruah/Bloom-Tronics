@@ -1,0 +1,45 @@
+.wishlist-container{
+    margin: 1rem;
+    font-family: lato,serif;
+}
+.wishlist-main{
+    margin: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+.card{
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    cursor: default;
+}
+.card-img{
+    height:250px;
+    width: 350px;
+    object-fit: fill;
+}
+.card-delete{
+    border: 2px solid var(--color-border);
+    border-radius: 80%;
+    color: var(--black);
+    font-weight: 700;
+    position: absolute;
+    display: inline-block;
+    padding: .3rem .6rem;
+    font-size: 1.2rem;
+    right: 2%;
+    top: 2%;
+    cursor: pointer;
+}
+
+.add-cart{
+    width: 100%;
+    align-items: center; 
+}
+.secondary-solid{
+    margin: 0;
+}
+.sub-text{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: var(--black);
+}
