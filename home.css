@@ -246,3 +246,43 @@
     font-size: 1.2rem;
     padding: 1rem ;
 }
+@media screen and (max-width:1000px){
+    .product-card{
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:500px){
+    .icon , .sign-in{
+        font-size: 0.9rem;
+        margin: 1rem .5rem;
+    }
+    .notification-icon{
+        height: 0.9rem;
+        font-size: 0.7rem;
+    }
+    .search-btn{
+        width: 3%;
+        height: 25px;
+        padding: 8px 15px;
+        font-size: 10px;
+    }    
+    .search-box{
+        width: 80%;
+        height: 25px;
+        padding: 8px;
+    } 
+    .logo-img{
+        height: 30px;
+        width: 30px;
+        margin: 1rem 0 ;
+    }  
+    .nav-header{
+        font-size: 1rem;
+    } 
+    .link-item{
+        font-size: 0.5rem;
+    }
+    .product-card{
+        gap: 1rem;
+    }
+}
