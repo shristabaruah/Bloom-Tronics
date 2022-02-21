@@ -44,3 +44,8 @@
     margin-left: 1rem;
     color: var(--black);
 }
+@media screen and (max-width: 500px){
+    .wishlist-main{
+        gap: 2.5rem;
+    }
+}

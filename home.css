@@ -206,9 +206,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.card{
-    box-shadow: none;
-}
+
 .category-facilities{
     display: flex;
     justify-content: space-evenly;
